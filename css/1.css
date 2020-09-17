@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "myfont";
+    src: url('../raphaelicons/raphaelicons-webfont.eot'), url('../raphaelicons/raphaelicons-webfont.svg'), url('../raphaelicons/raphaelicons-webfont.ttf'), url('../raphaelicons/raphaelicons-webfont.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: pink;
+}
+
+.box1 {
+    width: 500px;
+    height: 350px;
+    border: 2px solid pink;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.box1 a {
+    font-family: "myfont";
+    font-size: 100px;
+    color: pink;
+}
+
+#btleft {
+    top: 120px;
+    left: 10px;
+    position: absolute;
+}
+
+#btright {
+    top: 120px;
+    right: 10px;
+    position: absolute;
+}
+
+.box1 ul {
+    width: 500%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.box1 ul li {
+    width: 503.2px;
+    height: 350px;
+    float: left;
+    list-style: none;
+    border: 0px;
+}
+
+.box1 ul li img {
+    width: 503px;
+    height: 350px;
+}
+
+.circle {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    line-height: 20px;
+    text-align: center;
+    list-style: none;
+}
+
+.circle li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+/* .circle li:hover{
+    background-color: #cd0b2d;
+} */
+
+.current {
+    background: #DB192A !important;
+}
